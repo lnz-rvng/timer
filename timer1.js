@@ -1,8 +1,6 @@
-// process.stdout.write('\x07');
-
 const alarm = (seconds) => {
   setTimeout(() => {
-    process.stdout.write('\x07 Beep \n');
+    process.stdout.write('\x07 Alarm! \n');
   }, seconds * 1000);
 };
 
